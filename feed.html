@@ -8,47 +8,69 @@
     <title>Feed | Jasminepro </title>
 </head>
 <body>
-    <head>
+    <header class="header">
         <a href="feed.html">
-          <img src="images/insta.png" alt="" />
+          <img src="images/insta.png" class="header__link" alt="" />
         </a>
-        <input name="username" type="text" placeholder="Search" required />
-        <ul>
-            <li>
-                <a href="explore.html">
+        
+        <input name="username" type="text" placeholder="Search" class="header__input" required />
+        <ul class="header__icon-list">
+            <li class="header__icon">
+                <a href="explore.html" class="header__icon-link">
                     <i class="fa fa-compass" aria-hidden="true"></i>
                 </a>
-            <li>
-                <a href="#"> 
+            <li class="header__icon">
+                <a href="#" class="header__icon-link"> 
                     <i class="fa fa-heart" aria-hidden="true"></i>
                 </a>
             </li>
-            <li><a href="profile.html">
-                <i class="fa fa-user-o" aria-hidden="true"></i>
+            <li class="header__icon">
+                <a href="profile.html" class="header__icon-link">
+                    <i class="fa fa-user-o" aria-hidden="true"></i>
             </a>
             </li>
         </ul>
-    </head>
+    </header>
     <main></main>
         
 <!-- This is simple way to make : Footer>(nav>ul>li*9[a href="#"])+span{@ 2018 jasminepro}   -->
-<footer>
-    <nav>
-        <ul>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Support</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Press</a></li>
-            <li><a href="#">Api</a></li>
-            <li><a href="#">Jobs</a></li>
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#">Directory</a></li>
-            <li><a href="#">Language</a></li>
-        </ul>
-    </nav>
-    <span>@ 2018 jasminepro</span>
-</footer>
+<footer class="footer">
+        <nav class="footer__navigation">
+            <ul class="footer__list">
+                <li class="footer__list-item">
+                    <a href="#">About us</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="#" class="footer_link">Support</a>
+                </li>_
+                <li class="footer__list-item">
+                    <a href="#"> class="footer_link"Blog</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="#" class="footer_link">Press</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="#" class="footer_link">Api</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="#" class="footer_link">Jobs</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="#" class="footer_link">Privacy</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="#" class="footer_link">Terms</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="#" class="footer_link">Directory</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="#" class="footer_link">Language</a>
+                </li>
+            </ul>
+        </nav>
+        <span>@ 2018 jasminepro</span>
+    </footer>
 
 </body>
 </html>
