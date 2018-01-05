@@ -1,0 +1,15 @@
+.login {
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+  background-color: green;
+  padding: 20px;
+}
+
+.login__white-box {
+  background-color: white;
+}
+
+.login__app-stores .login__app-store {
+  size: 30px;
+}

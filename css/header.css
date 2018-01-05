@@ -28,4 +28,22 @@
 }
 
 .header__wrapper .header__input {
+  background-color: #fafafa;
+  border: 0;
+  width: 220px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.0975);
+  border-radius: 3px;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: 300;
 }
+
+.header .header__input:focus {
+  outline: none;
+  background-color: white;
+}
+
+/**.header .header__input:hover {
+  background-color: pink;
+}**/
