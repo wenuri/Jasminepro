@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Feed | Jasminepro </title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__wrapper">
+            <a href="feed.html">
+                <img src="images/insta.png" class="header__link" alt="" />
+            </a>
+
+            <input name="username" type="text" placeholder="Search" class="header__input" required />
+            <ul class="header__icon-list">
+                <li class="header__icon">
+                    <a href="explore.html" class="header__icon-link">
+                        <i class="fa fa-compass fa-lg" aria-hidden="true"></i>
+                    </a>
+                    <li class="header__icon">
+                        <a href="#" class="header__icon-link">
+                            <i class="fa fa-heart fa-lg" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li class="header__icon">
+                        <a href="profile.html" class="header__icon-link">
+                            <i class="fa fa-user-o fa-lg" aria-hidden="true"></i>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+
+    </header>
+    <main class="feed">
+        <section class="phtoes">
+            <article class="photo">
+                <header class="photo__header">
+                    <img src="images/avatar.jpg" class="phto__avatar" alt="" />
+                    <div class="photo__info">
+                        <span class="photo__owner">ina hur</span>
+                        <span class="photo__place">Chiang Mai, Thailand</span>
+                    </div>
+                </header>
+                <img src="images/feedphoto.jpg" class="photo_file" alt="" />
+                <div class="photo__feedback">
+                    <div class="photo__actions">
+                        <div class="photo__action-column">
+                            <i class="fa fa-heart-o fa-lg"></i>
+                            <i class="fa fa-comment-o fa-lg"></i>
+                        </div>
+                    </div>
+                    <div class="photo__action-column">
+                        <i class="fa fa-bookmark-o fa-lg"></i>
+                    </div>
+                </div>
+                <span class="photo__likes"> 51 likes</span>
+                <ul class="photo_comments">
+                    <li class="photo_comment">
+                        <span class="photo__comment-author">nicolas</span>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                </ul>
+                <span class="photo__timestamp">12 hours ago</span>
+                <div class="photo__make-comment">
+                    <textarea placeholder="Add a comment.."></textarea>
+                    <i class="fa fa-ecllipsis-h "></i>
+                </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <!-- This is simple way to make : Footer>(nav>ul>li*9[a href="#"])+span{@ 2018 jasminepro}   -->
+    <footer class="footer">
+        <nav class="footer__navigation">
+            <ul class="footer__list">
+                <li class="footer__list-item">
+                    <a href="#">About us</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="#" class="footer_link">Support</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="#" class="footer_link">Blog</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="#" class="footer_link">Press</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="#" class="footer_link">Api</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="#" class="footer_link">Jobs</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="#" class="footer_link">Privacy</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="#" class="footer_link">Terms</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="#" class="footer_link">Directory</a>
+                </li>
+                <li class="footer__list-item">
+                    <a href="#" class="footer_link">Language</a>
+                </li>
+            </ul>
+        </nav>
+        <span>@ 2018 jasminepro</span>
+    </footer>
+
+</body>
+
+</html>

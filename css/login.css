@@ -7,7 +7,7 @@
 }
 
 .login .login__column {
-  width: 45%;
+  width: 50%;
 }
 
 .login__column .login__white-box {
@@ -29,6 +29,7 @@
   color: #3897f0;
 }
 
+/**get the app section**/
 .login__box {
   text-align: center;
 }
@@ -94,7 +95,7 @@
 
 /**.login__form .login__input[type="submit"]:active, :focus{
     outline:none;
-}**/
+} -> not working**/
 .login__form .login__input[type="submit"]:active,
 .login__form .login__input[type="submit"]:focus {
   outline: none;

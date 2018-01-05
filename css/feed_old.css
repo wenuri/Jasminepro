@@ -1,0 +1,136 @@
+.feed {
+  max-width: 600px;
+  width: 100%;
+}
+
+.photo {
+  width: 100%;
+  background-color: white;
+  margin-bottom: 60px;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.09);
+}
+.feed .section {
+  width: 100%;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.09);
+  border-radius: 3px;
+}
+.photo__header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 20px;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.09);
+  border-radius: 3px;
+  background-color: white;
+}
+
+.feed {
+  border-bottom: 3px solid rgba(0, 0, 0, 0.09);
+}
+
+.photo__header .photo__info span {
+  display: block;
+}
+.photo__header .photo__avatar {
+  height: 55px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.photo .photo__file {
+  width: 100%;
+  height: 60%;
+}
+
+.photo__actions {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.photo__action-column i {
+  font-size: 22px;
+  font-weight: 600;
+  margin-right: 15px;
+}
+
+.photo__action-column {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.photo__Action-column:first-child {
+  margin-right: 10px;
+}
+
+.photo__feedback .photo__make-comment {
+  width: 100%;
+}
+
+.photo__make-comment textarea {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.photo__make-comment {
+  display: flex;
+}
+
+.photo__likes {
+  font-weight: 600;
+}
+
+.photo__comments .photo__comment {
+  display: flex;
+  border-bottom: 10px;
+}
+
+.photo__comment .photo__comment-author {
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.photo__feedback .photo__comment {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+/**
+.photo__header .photo__info span {
+  display: block;
+}
+
+
+.explore .explore__user-list {
+  background-color: white;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  border-radius: 3px;
+}
+
+.explore__user-list .explore__user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+  border-radius: 3px;
+}
+
+.explore__user-list .explore__user:last-child {
+  border-bottom: 0px;
+}
+
+.explore__user-list .explore__column {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.explore__column .explore__avatar {
+  height: 55px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+**/
