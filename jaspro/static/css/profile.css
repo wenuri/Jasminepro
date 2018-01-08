@@ -1,0 +1,37 @@
+.profile {
+  max-width: 960px;
+  width: 100%;
+}
+
+.profile .profile__user {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  border-radius: 3px;
+}
+
+.profile__user-info .user__column {
+  display: flex;
+  align-items: center;
+  padding: 50px 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+  border-radius: 3px;
+}
+.profile .profile__image-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  border-radius: 3px;
+}
+
+.profile__image {
+  width: 32%;
+  height: 300px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+.profile__image .photo__file {
+  height: 100%;
+  max-width: 100%;
+}

@@ -1,0 +1,31 @@
+{% extends "base.html" %} {% load static %} {%block potato%}Profile{%endblock%} {% block content %}
+
+<!-- This are the COLUMNS -->
+<H1> This is profile showing all images uploaded by user </H1>
+
+<main class="profile">
+    <ul class="profile__user">
+        <li class="profile__user-info">
+            <div class="user__column">
+                <img src="{% static 'images/avatar.jpg'%}" class="user__avatar">
+                <div class="user__info">
+                    <span class="profile__full-name">{{user.get_full_name}}</span>
+                </div>
+            </div>
+        </li>
+    </ul>
+
+    <ul class="profile__image-list">
+        {% for image in user.image_set.all%}
+        <li class="profile__image">
+            <img src="/media/{{image.file}}" class="photo__file" />
+            <div class="image__info">
+                <span class="photo__likes">{{image.count_likes}} likes</span>
+                <span class="explore__username">{{image.author.username}}</span>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+
+</main>
+{% endblock %}

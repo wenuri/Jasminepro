@@ -2,6 +2,8 @@ from django.db import models
 
 from django.contrib.auth.models import User
 
+
+
 class Image(models.Model):
 
     file = models.FileField()
@@ -14,6 +16,12 @@ class Image(models.Model):
     def __str__(self):
         return f'{self.caption} - {self.location}'
 
+    def count_likes(self):
+        return self.like_set.all().count()
+
+    class Meta:
+        ordering = ("-created_at",)
+
 class Comment(models.Model):
 
     message = models.TextField()
@@ -22,6 +30,7 @@ class Comment(models.Model):
 
     def __str__(self):
         return f'{self.message} - {self.directed_to.location} comment by {self.created_by}'
+
 
 class Like(models.Model):
 

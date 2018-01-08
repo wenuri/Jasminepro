@@ -1,0 +1,21 @@
+{% extends "base.html" %} {%block potato%}Discover{%endblock%} {% block content %}
+
+<main class="explore">
+    {% for user in all_users %}
+    <ul class="explore__user-list">
+        <li class="explore__user">
+            <div class="explore__column">
+                <img src="images/avatar.jpg" class="explore__avatar">
+                <div class="explore__info">
+                    <span class="explore__username">{{user.username}}</span>
+                    <span class="explore__full-name">{{user.username}}</span>
+                </div>
+            </div>
+            <div class="explore__column">
+                <button class="explore__btn">Follow</button>
+            </div>
+        </li>
+    </ul>
+    {% endfor %}
+</main>
+{% endblock %}

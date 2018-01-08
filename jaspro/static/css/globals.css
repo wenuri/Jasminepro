@@ -6,7 +6,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   background-color: #fafafa;
   background: #fafafa;
   font-size: 14px;
@@ -17,4 +16,8 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+main {
+  min-height: 900px;
 }
